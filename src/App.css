@@ -38,7 +38,6 @@
   }
 }
 
-
 .wrapper{
   min-height: 100%;
   width: 100%;
@@ -46,8 +45,10 @@
 }
 
 header{
-  display: flex;
-  overflow: hidden;
+  background-color: #F9FBF1;
+  padding: 10px;
+  top:0;
+  z-index: 10;
 }
 
 header ul{
@@ -63,15 +64,10 @@ header ul li{
 
 Table {
   text-align: center;
-  
-}
-
-Table th{
-  font-size: larger;
 }
 
 Table .home_font{
-  background-color: #F9FBF1;
+  background-color: #E6D1B1;
   font-size: 20px;
   font-weight: bolder;
   line-height: 50px;
@@ -109,7 +105,7 @@ Table .cartfont{
 
 footer{
   width: 100%;
-  background-color: #F9FBF1;
+  background-color: #B8AA95;
   padding: 5px 300px;
   margin-top: 2%;
 }

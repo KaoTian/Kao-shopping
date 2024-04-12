@@ -72,7 +72,7 @@ function Cart() {
                 );
             })}
             <div style={{textAlign:"right"}}>
-                <h2>總金額　${TotalPrice}　<Button color='red'>結帳</Button></h2>
+                <h2>折扣後　總金額　${Math.ceil(TotalPrice = TotalPrice*0.9)}　<Button color='red'>結帳</Button></h2>
             </div>
         </Container>
     )

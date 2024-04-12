@@ -8,7 +8,7 @@ import firebase from "../untils/firebase";
 function Header({ user }) {
 
     return (
-        <header className="navbar navbar-expand-lg navbar-light" style={{ margin: '10pt 0 0 0 ' }}>
+        <header className="navbar navbar-expand-lg navbar-light" style={{ position:'sticky'}}>
             <Container>
                 <Link to='/'><div style={{ textAlign: "center" }}><Image src={require("../imgs/logo_head.png")} width="20%" height="20%" /></div></Link>
                 <Table>
@@ -33,7 +33,7 @@ function Header({ user }) {
                     </tr>
                 </Table>
                 <hr />
-                <h2>
+                <h3>
                     <Table>
                         <tr>
                             <td>公告消息</td>
@@ -43,8 +43,7 @@ function Header({ user }) {
                             <td>生鮮蔬果</td>
                         </tr>
                     </Table>
-                </h2>
-                <hr />
+                </h3>
             </Container>
         </header>
     );
