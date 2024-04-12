@@ -11,7 +11,7 @@ function Home() {
     };
 
     return (
-        
+        <Container>
             <div className="wrapper">
                 <Carousel activeIndex={index} onSelect={handleSelect} className='img_change'>
                     <Carousel.Item>
@@ -56,7 +56,7 @@ function Home() {
                     </Table>
                 </div>
             </div>
-        
+        </Container>
     );
 }
 

@@ -45,21 +45,29 @@
 }
 
 header{
+  text-align: center;
   background-color: #F9FBF1;
   padding: 10px;
   top:0;
   z-index: 10;
 }
 
-header ul{
-  text-align: right;
+header a{
+  color: #5E5A54;
 }
 
-header ul li{
+.menu li{
   float: left;
   display: block;
-  width: calc(30%/3);
-  text-align: center;
+  width: calc(80%/5);
+  text-align: left;
+}
+
+.member li{
+  float: left;
+  display: block;
+  width: calc(20%/3);
+  text-align: right;
 }
 
 Table {
@@ -105,7 +113,7 @@ Table .cartfont{
 
 footer{
   width: 100%;
-  background-color: #B8AA95;
+  background-color: #FFCFAD;
   padding: 5px 300px;
   margin-top: 2%;
 }
